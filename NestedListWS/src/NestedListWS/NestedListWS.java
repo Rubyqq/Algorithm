@@ -10,7 +10,11 @@ public class NestedListWS {
 		
 	}
 	
-	
+	/**
+	 * the interface is given by leetcode
+	 * @author Mengyi
+	 *
+	 */
 	  // This is the interface that allows for creating nested lists.
 	  // You should not implement it, or speculate about its implementation
 	  public interface NestedInteger {
