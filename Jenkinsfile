@@ -12,12 +12,8 @@ node{
   echo "Geting git version"
   bat "git --version"
   checkout scm
-  echo "test commit"
   
-  bat "git add ."
-  bat "git status"
-  bat "git commit -m \"this is auto git commit\""
-  bat "git push"
+  bat "type README.md"
   
   echo "git test finished!"
 }
