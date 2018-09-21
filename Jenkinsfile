@@ -12,4 +12,5 @@ node{
   echo "Geting git version"
   bat "git --version"
   checkout scm
+  echo "test commit"
 }
