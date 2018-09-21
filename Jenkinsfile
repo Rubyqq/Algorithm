@@ -6,4 +6,6 @@ node{
   echo "Before build"
   stage("Build"){}
   echo "After Build"
+  
+  sh "git --version"
 }
