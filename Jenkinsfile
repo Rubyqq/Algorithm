@@ -8,7 +8,7 @@ node{
   echo "After Build"
   
   echo "DIR"
-  sh "DIR"
+  bat "DIR"
   echo "Geting git version"
-  sh "git"
+  bat "git --version"
 }
