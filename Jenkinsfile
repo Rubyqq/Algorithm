@@ -4,8 +4,10 @@ node{
   echo "After checkout"
   
   echo "Before build"
-  stage("Build"){sh "git --version"}
+  stage("Build"){}
   echo "After Build"
   
-  
+  sh "DIR"
+  sh "pwd"
+  sh "git --version"
 }
