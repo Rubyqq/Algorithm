@@ -7,7 +7,8 @@ node{
   stage("Build"){}
   echo "After Build"
   
+  echo "DIR"
   sh "DIR"
-  sh "pwd"
-  sh "git --version"
+  echo "Geting git version"
+  sh "C:\Program Files\Git\cmd\git --version"
 }
