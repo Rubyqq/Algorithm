@@ -11,4 +11,5 @@ node{
   bat "DIR"
   echo "Geting git version"
   bat "git --version"
+  checkout scm
 }
