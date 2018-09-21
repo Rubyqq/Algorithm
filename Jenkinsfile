@@ -10,5 +10,5 @@ node{
   echo "DIR"
   sh "DIR"
   echo "Geting git version"
-  sh "C:\Program Files\Git\cmd\git --version"
+  sh "git"
 }
