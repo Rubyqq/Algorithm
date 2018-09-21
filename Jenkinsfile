@@ -16,7 +16,7 @@ node{
   
   bat "git add ."
   bat "git status"
-  bat "git commit -m 'this is auto git commit'"
+  bat "git commit -m "this is auto git commit""
   bat "git push"
   
   echo "git test finished!"
